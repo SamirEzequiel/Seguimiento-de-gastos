@@ -1,3 +1,4 @@
+# Dependencias principales
 fastapi==0.115.0
 uvicorn==0.30.6
 motor==3.6.0
@@ -7,3 +8,18 @@ python-dotenv==1.0.1
 pydantic==2.8.2
 pydantic-settings==2.4.0
 email-validator==2.2.0
+
+# Dependencias de testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+pytest-cov==4.1.0
+
+# Dependencias de desarrollo
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+mypy==1.7.1
+
+# Dependencias adicionales
+requests==2.32.3
